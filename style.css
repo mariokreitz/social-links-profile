@@ -84,8 +84,8 @@ li {
 
 .profile-image {
   border-radius: 9999px;
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
 }
 
 .profile-info {
@@ -116,7 +116,7 @@ li {
   color: var(--white);
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 12px;
 }
 
 .social-list-item {
