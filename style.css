@@ -1,0 +1,167 @@
+@font-face {
+  font-family: inter-regular;
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: inter-semibold;
+  src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: inter-bold;
+  src: url("./assets/fonts/static/Inter-Bold.ttf");
+}
+
+/* colors that are used */
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+/* Reset the default spacing */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--grey-900);
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: var(--grey-800);
+  padding: 38px;
+  border-radius: 10px;
+  width: 384px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.profile-image {
+  border-radius: 9999px;
+  width: 75px;
+  height: 75px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.profile-info > h1 {
+  color: var(--white);
+}
+
+.profile-info > p {
+  color: var(--green);
+}
+
+.profile-description {
+  color: var(--white);
+}
+
+.card-footer {
+  width: 100%;
+}
+
+.social-links {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.social-list-item {
+  width: 100%;
+  background-color: var(--grey-700);
+  border-radius: 8px;
+}
+
+.social-list-item:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+}
+
+.social-link {
+  font-size: 16px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inter-regular {
+  font-family: inter-regular;
+  font-weight: 400;
+}
+
+.inter-semibold {
+  font-family: inter-semibold;
+  font-weight: 600;
+}
+
+.inter-bold {
+  font-family: inter-bold;
+  font-weight: 700;
+}
+
+@media (max-width: 376px) {
+  .card {
+    width: 327px;
+    padding: 24px;
+  }
+}
+
+@media (max-width: 433px) {
+  .container {
+    padding-inline: 24px;
+  }
+}
