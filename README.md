@@ -1,4 +1,4 @@
-# Social Links Profile Card
+# Social Links Profile Card [![Netlify Status](https://api.netlify.com/api/v1/badges/26d52472-7d30-4d31-8d93-c86d8a0e5ccc/deploy-status)](https://app.netlify.com/sites/simple-social-links-profile-fm/deploys)
 
 ![Social Links Profile Card Design](https://raw.githubusercontent.com/mariokreitz/social-links-profile/main/preview.jpg)
 
